@@ -4,7 +4,6 @@ body {
 }
 
 header {
-  max-width: 1600px;
   height: 80px;
   display: flex;
   align-items: center;
@@ -119,7 +118,6 @@ h1 {
 .first {
   display: flex;
   flex-direction: row;
-  max-width: 1600px;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
@@ -226,7 +224,6 @@ h1 {
 }
 
 footer {
-  max-width: 1600px;
   height: 252px;
   background-image: url("./images/Bg.webp");
 }
