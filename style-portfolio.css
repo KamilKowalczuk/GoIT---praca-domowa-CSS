@@ -1,94 +1,150 @@
-body {
-  margin: auto;
-  padding: auto;
-}
-
-.images {
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  flex-basis: 30%;
-}
-
-.images li {
-  display: flex;
-  flex-direction: column;
-  list-style-type: none;
-  flex-basis: 30%;
-}
-.images h3 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-
-  color: #212121;
-}
-
-.images p {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
-
-  letter-spacing: 0.03em;
-
-  color: #757575;
-  margin-bottom: 94px;
-}
-
-section.categories {
-  padding: 6px 22px 6px 22px;
-  width: 500px;
-  margin: 0 auto;
-}
-.list {
-  margin: 0;
-  padding: 0;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.list li {
-  list-style-type: none;
-  text-decoration: none;
-  color: black;
-}
-.list a {
-  text-decoration: none;
-  color: black;
-}
-.list a:hover {
-  text-decoration: underline solid blue 2px;
-}
-.button2 {
-  padding: 3px 15px 3px 15px;
-
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 30px;
-  /* identical to box height, or 188% */
-
-  letter-spacing: 0.06em;
-
-  color: #ffffff;
-
-  border: none;
-
-  background: darkgray;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  margin-top: 100px;
-  margin-right: 20px;
-}
-.button2:hover {
-  background-color: #2196f3;
-}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style-portfolio.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="./" class="logo"><span>Web</span>Studio</a>
+        <ul class="nav-bar">
+          <li><a href="">Agencja</a></li>
+          <li><a href="./portfolio.html">Portfolio</a></li>
+          <li><a href="">Kontakt</a></li>
+        </ul>
+      </nav>
+      <div class="mail">
+        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a href="call:+48111111111">+48 111 111 111</a>
+      </div>
+    </header>
+    <main>
+      <section class="categories">
+    <ul class="list">
+        <li>
+            <input type="button" class="button2" value=" Wszystkie"</></li>
+            <input type="button" class="button2"  value=" Strony"</></li>
+            <input type="button" class="button2"  value=" Aplikacje"</></li>
+            <input type="button" class="button2" value=" Dizajn"</></li>
+            <input type="button" class="button2" value=" Marketing"</></li>
+    </ul>
+      </section>
+      <section class="images-list">
+        <ul class="images">
+          <li>
+            <img
+              src="./images-portfolio/img-8.webp"
+              alt="Zdjęcie strony internetowej technocrack"
+              width="370"
+              height="294"
+            />
+            <h3>Technocrack</h3>
+            <p>Strona internetowa</p>
+          </li>
+          <li>
+            <img
+              src="./images-portfolio/img-7.webp"
+              alt="Zdjęcie przedstawiające koszykarzy"
+              width="370"
+              height="294"
+            />
+            <h3>Grafika New Orlean vs Golden Star</h3>
+            <p>Dizajn</p>
+          </li>
+          <li>
+            <img
+              src="./images-portfolio/img-6.webp"
+              alt="Logo aplikacji SeaFood"
+              width="370"
+              height="294"
+            />
+            <h3>Restauracja SeaFood</h3>
+            <p>Aplikacja</p>
+          </li>
+          <li>
+            <img
+              src="./images-portfolio/img-5.webp"
+              alt="Zdjęcie słuchawek"
+              width="370"
+              height="294"
+            />
+            <h3>Projekt Prime</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images-portfolio/img-4.webp"
+              alt="Zdjęcie pudełek"
+              width="370"
+              height="294"
+            />
+            <h3>Projekt Boxes</h3>
+            <p>Aplikacja</p>
+          </li>
+          <li>
+            <img
+              src="./images-portfolio/img-3.webp"
+              alt="Zdjęcie komputera z włączoną stroną internetową"
+              width="370"
+              height="294"
+            />
+            <h3>Inspiration has no Borders</h3>
+            <p>Strona internetowa</p>
+          </li>
+          <li>
+            <img
+              src="./images-portfolio/img-2.webp"
+              alt="Zdjęcie otwartej ksiązki"
+              width="370"
+              height="294"
+            />
+            <h3>Magazyn LimitedEdition</h3>
+            <p>Dizajn</p>
+          </li>
+          <li>
+            <img
+              src="./images-portfolio/img-1.webp"
+              alt="Zdjęcie Zawieszki projektu LAB"
+              width="370"
+              height="294"
+            />
+            <h3>Projekt LAB</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images-portfolio/img.webp"
+              alt="Zdjęcie Zawieszki projektu LAB"
+              width="370"
+              height="294"
+            />
+            <h3>Projekt LAB</h3>
+            <p>Marketing</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+        <a href="./" class="logo-footer"><span>Web</span> Studio</a>
+        <address>
+          <div class="mail-footer"></div>
+          <ul>
+            <li>
+              <p>m. Warszawa, Aleje Jerozolimskie 21</p>
+            </li>
+              <li>
+                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a href="call:+48111111111">+48 111 111 111</a>
+              </li>
+          </ul>
+        </div>
+        </address>
+      
+      </footer>
+  </body>
+</html>
