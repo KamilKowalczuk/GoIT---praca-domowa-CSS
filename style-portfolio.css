@@ -72,7 +72,6 @@ section.categories {
 .button2 {
   padding: 3px 15px 3px 15px;
 
-  background-color: blue;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -85,9 +84,12 @@ section.categories {
 
   border: none;
 
-  background: #2196f3;
+  background: darkgray;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   margin-top: 100px;
   margin-right: 20px;
+}
+.button2:hover {
+  background-color: #2196f3;
 }
